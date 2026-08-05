@@ -541,12 +541,14 @@ img {
 .archive-intro__content h2,
 .library-heading h2,
 .voices h2,
-.voices__marquee {
-  font-size: clamp(32px, 9vw, 40px);
-}
-
-.voices__marquee div {
-  padding: 18px 0;
+.join__header h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(52px, 7.2vw, 138px);
+  font-weight: 400;
+  letter-spacing: -.06em;
+  line-height: .9;
+  text-transform: uppercase;
 }
 .join__header h2 { margin: 0; font-family: Georgia, serif; font-size: clamp(52px, 7.2vw, 138px); font-weight: 400; letter-spacing: -.06em; line-height: .9; text-transform: uppercase; }
 .archive-intro__content h2 em { color: #966a36; font-weight: 400; }
