@@ -707,7 +707,7 @@ img {
   .featured__meta { flex-direction: column; }
   .episode-library { padding: 100px 18px; }
   .library-heading { gap: 24px; }
-  .library-heading h2 { font-size: 14vw; }
+  .library-heading h2 { font-size: clamp(38px, 11vw, 52px); line-height: .92; letter-spacing: -.055em;}
   .episode-grid { grid-template-columns: 1fr; gap: 48px; }
   .episode-card__text { grid-template-columns: 70px 1fr; }
   .host { gap: 70px; padding: 100px 18px; }
