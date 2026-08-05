@@ -121,6 +121,22 @@ img {
   100% { opacity: .9; transform: scale(1); filter: sepia(.25) brightness(.8); }
 }
 
+/* ADD THE NEW GLOW ANIMATION HERE */
+@keyframes mark-glow {
+  from {
+    filter:
+      sepia(.35)
+      brightness(.82)
+      drop-shadow(0 0 18px rgba(221, 169, 102, .25));
+  }
+
+  to {
+    filter:
+      sepia(.45)
+      brightness(1)
+      drop-shadow(0 0 55px rgba(221, 169, 102, .6));
+  }
+}
 @keyframes beam-sweep {
   0% { transform: translateX(-48%) rotate(-4deg); opacity: 0; }
   25% { opacity: 1; }
