@@ -83,7 +83,7 @@ export default function Home() {
 
   useEffect(() => {
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const timer = window.setTimeout(() => setReady(true), reduceMotion ? 50 : 2300);
+    const timer = window.setTimeout(() => setReady(true), reduceMotion ? 50 : 3500);
 
     let ticking = false;
     const updateScroll = () => {
