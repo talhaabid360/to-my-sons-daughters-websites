@@ -745,7 +745,7 @@ img {
     background:
       linear-gradient(180deg, rgba(6,5,4,.28) 0%, rgba(6,5,4,.06) 36%, rgba(6,5,4,.84) 86%, #090806 100%),
       linear-gradient(90deg, rgba(6,5,4,.28), transparent 48%, rgba(6,5,4,.18)),
-      url('/media/podcast-cover.webp') 50% 10svh / calc(100vw - 24px) auto no-repeat,
+      url('/media/podcast-cover.webp') 50% 17svh / calc(100vw - 24px) auto no-repeat,
       #090806;
     filter: sepia(.12) saturate(.74) brightness(.72);
     transform: scale(1.01);
