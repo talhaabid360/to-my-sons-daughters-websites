@@ -724,7 +724,7 @@ img {
   .voices { padding: 90px 0; }
   .voices h2 { margin-bottom: 55px; font-size: 13vw; }
   .join { padding: 100px 18px; }
-  .join__header h2 { font-size: 13vw; }
+  .join__header h2 { font-size: clamp(38px, 10.5vw, 48px); line-height: .92; letter-spacing: -.055em;}
   .join-card { min-height: auto; padding: 30px 22px 40px; }
   .join-card h3 { margin-top: 50px; }
   .join-card form { flex-direction: column; }
