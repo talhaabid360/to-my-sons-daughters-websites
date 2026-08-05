@@ -599,7 +599,7 @@ img {
 .episode-card { min-width: 0; }
 .episode-card__image { position: relative; aspect-ratio: 16/9; overflow: hidden; border: 1px solid var(--line); background: var(--ink); }
 .episode-card__image::after { content: ""; position: absolute; inset: 0; opacity: 0; background: rgba(189,135,72,.48); mix-blend-mode: color; transition: opacity .35s; }
-.episode-card img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.58) sepia(.08); transition: transform .55s ease, filter .4s ease; }
+.episode-card img { width: 100%; height: 100%; object-fit: cover; filter: saturate(1.08) contrast(1.04); transition: transform .55s ease, filter .4s ease; }
 .episode-card:hover img { transform: scale(1.025); filter: saturate(.85); }
 .episode-card:hover .episode-card__image::after { opacity: 1; }
 .episode-card__number,
