@@ -90,7 +90,9 @@ img {
   width: min(42vw, 410px);
   opacity: 0;
   filter: sepia(.35) drop-shadow(0 0 34px rgba(221, 169, 102, .22));
-  animation: mark-reveal 1.8s .25s ease-out forwards;
+  animation:
+    mark-reveal 1.8s .25s ease-out forwards,
+    mark-glow 1.2s 2s ease-in-out infinite alternate;
 }
 
 .preloader__beam {
