@@ -872,3 +872,38 @@ img {
 
   .archive-intro { min-height: auto; }
 }
+
+/* GLOBAL BLACK AND WHITE BACKGROUND PALETTE */
+:root {
+  --ink: #000000;
+  --charcoal: #050505;
+  --paper: #ffffff;
+  --parchment: #f5f5f5;
+}
+
+/* Dark sections */
+.featured,
+.episode-library,
+.voices,
+.join,
+.mobile-hero-summary {
+  background: #000000;
+}
+
+/* Light sections */
+.archive-intro,
+.host,
+.site-footer {
+  background-color: #ffffff;
+}
+
+/* Black navigation background */
+.site-header {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, .97),
+      rgba(0, 0, 0, .78) 70%,
+      transparent
+    );
+}
